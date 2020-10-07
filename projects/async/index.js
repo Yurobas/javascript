@@ -91,7 +91,7 @@ async function tryToLoadTowns() {
     loadingBlock.classList.add('hidden');
     loadingFailedBlock.classList.add('hidden');
     filterBlock.classList.remove('hidden');
-  } catch(e) {
+  } catch (e) {
     loadingBlock.classList.add('hidden');
     loadingFailedBlock.classList.remove('hidden');
   }
